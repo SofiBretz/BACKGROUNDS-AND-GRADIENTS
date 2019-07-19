@@ -14,21 +14,29 @@
   background-position-x: 50%;
   background-position-y: 100%;
   background-size: 1440px 1315px;
-  margin-top: -78px;
+
 }
 
-.fonts {
+.mainWrapper {
   font-family: 'open sans light';
   text-align: center;
   color: white;
-}
-
-.mainTitle {
   width: 980px
   height: 104px;
   line-height: 36px;
   margin-left: 230px;
   margin-right: 230px;
+  border: solid blue 2px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-top: -170px;
+  padding: 50px 0;
+}
+
+.mainTitle {
+
 
 }
 
@@ -152,18 +160,23 @@ figure {
   width: 100%;
   height: 200px;
 
+
 }
 
+/*here you can manage the left and right images*/
 .globalPromos{
   margin: 0px;
   position: absolute;
   z-index: 1;
   bottom: 90px;
-  margin-left: 70px;
+  margin-left: 63px;
+  margin-bottom: 5px;
+
+
 }
 
 .promos {
-  width: 257px;
+  width: 260px;
   height: 200px;
   display: inline-block;
   border-left: 2px solid #fff;
@@ -176,11 +189,100 @@ figure {
   right: 0px;
   line-height: 18px;
   z-index: 1;
-  margin-right: 96px;
+  margin-right: 90px;
+  border: solid black 1px;
+
 }
 
 .promoImg {
   width: 364px;
   height: 200px;
   margin: 0px;
+
+}
+
+/*Footer*/
+footer {
+  margin: 0px;
+  width: 1024px;
+  height: 90px;
+  border: solid black 1px;
+}
+
+footer a{
+  color: #08c;
+  text-decoration: none;
+
+}
+
+.homeFooter {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: .8334em;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+
+}
+.footerLeft ul{
+
+}
+.footerLeft li {
+    float: left;
+    clear: both;
+    width: 49%;
+    padding-top: 1.5em;
+    text-align: left;
+}
+
+.footerLeft{
+  display: inline-block;
+  margin-right: 15px;
+  color: rgb(153, 153, 153);
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: 27px;
+}
+
+.footerRight li {
+  display: inline-block;
+  margin-right: 15px;
+  color: rgb(153, 153, 153);
+}
+
+.footerRight {
+  float: right;
+}
+
+.footerBottom {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+  padding: 0;
+}
+
+.footerBottomList a{
+
+}
+
+.footerBottom li {
+    display: inline-block;
+    margin-right: 15px;
+    color: rgb(153, 153, 153);
+    display: inline;
+    margin: 0;
+
 }
