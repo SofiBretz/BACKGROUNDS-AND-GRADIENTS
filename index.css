@@ -7,7 +7,7 @@
   left: 50%;
   margin-left: -720px;
   position: absolute;
-  top: 0;
+  top: 0; 
   z-index: -1;
   bottom: 0px;
   background-origin: padding-box;
