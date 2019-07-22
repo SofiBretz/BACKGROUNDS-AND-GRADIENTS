@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <meta charset="utf-8">
     <title>Backgrounds and Gradients</title>
   </head>
@@ -25,8 +27,11 @@
               <li id="icon-iTunes">iTunes</li>
               <li id="icon-support">Support</li>
           </ul>
-            <div id="search-Nav">
-              <form method="get" class="searchForm"></form>
+            <div class="search-Nav">
+              <form class="searchForm" action="index.html" method="get">
+                <div class="searchIcon"><i class="fas fa-search"></i></div>
+                <input type="text" id="searchInput" size="8"></input>
+              </form>
             </div>
         </nav>
       <section>
@@ -35,12 +40,14 @@
     <main>
           <div class="background">
         <section class="mainWrapper">
-          <h1 class="mainTitle">What will your verse be</h1>
-          <h2 class="mainDescription">Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story.</h2>
-          <div class="mainLink">
-            <p>What will your verse be</p></div>
+          <h1 class="mainTitle">What will your verse be?</h1>
+          <h2 class="mainDescription row1">Everyone has something to share. See how people are using</h2>
+          <h2 class="mainDescription row2">iPad in their unique ways to add to the world’s story.</h2>
+          <div class="main link">
+          <a href="#" img class="main LinkApple" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt_2x.png"  alt="Watch the “Your Verse” film and explore the stories"></a>
+            <p id="linkText">Watch the “Your Verse” film and explore the stories <i class="far fa-play-circle"></i></p></div>
         </section>
-        </div>
+      </div>
     </main>
 
       <section class="globalPromos" width= "1024" height= "200">
@@ -79,11 +86,11 @@
             <li><a href="#">Site Map</a></li>
             <li><a href="#">Hot News</a></li>
             <li><a href="#">RSS Feeds</a></li>
-            <li><a href="#">Media Info</a></li>
+            <li><a href="#"> Media Info</a></li>
             <li><a href="#">Environment</a></li>
             <li><a href="#">Job Opportunities</a></li>
             <li><a href="#">Contact Us</a></li>
-            <li><a href="#"><img src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa_2x.png" alt="Choose your country or region" height="16" width="16"></a></li>
+            <li><a href="#"><img id="usaIcon" src="https://web.archive.org/web/20140301004610im_/http://images.apple.com/global/elements/flags/16x16/usa_2x.png" alt="Choose your country or region" height="16" width="16"></a></li>
           </ul>
         </nav>
       </section>
@@ -93,7 +100,7 @@
           <ul class="footerBottomFinal" style="list-style: none">
             <li>Copyright © 2014 Apple Inc. All rights reserved.</li>
             <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li id="leftBorderBottom"><a href="#">Privacy Policy</a></li>
           </ul>
         </nav>
       </section>
