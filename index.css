@@ -70,132 +70,101 @@
 /*Icons NavBar here*/
 header {
   font-family: 'open sans';
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 #globalHeader{
-  width: 1100px;
+  width: 1005px;
   height: 36px;
   background-position: 50% 0;
   top: 60px;
-  z-index: 2;
-  background: #707070;
- background: linear-gradient(0, rgba(102,102,102,1) 0%, rgba(94,94,94,1) 50%, rgba(112,112,112,1) 51%, rgba(128,128,128,1) 100%),
-             linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 0.002%, rgba(0,0,0,0) 98%, rgba(0,0,0,0.2) 100%),
-             linear-gradient(270deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 97%, rgba(0,0,0,0.45) 100%);
+  z-index: 1;
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
+  background: linear-gradient(0, rgba(102,102,102,1) 0%, rgba(94,94,94,1) 50%, rgba(112,112,112,1) 51%, rgba(128,128,128,1) 100%),
+             linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 0.002%, rgba(0,0,0,0) 98%, rgba(0,0,0,0.2) 100%),
+             linear-gradient(270deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 97%, rgba(0,0,0,0.45) 100%);
 }
 
 #globalNav {
   list-style: none outside;
-  border: solid white 1px;
   display: inline-block;
-  /*This margin and padding affects the list*/
-  padding: 0px;
-  margin: 0px;
+  margin: 0;
   text-align: center;
-  /*this need the same height from the globalNav li*/
-  height: 16px;
   color: white;
-
+  padding: 0;
 }
 
 #globalNav ul{
   width: 835px;
-  height: 36px;
-  padding: 0px;
-  margin: 0px;
-  margin-top: 0px;
+  margin: 0;
 }
 
 #globalNav li{
-  height: 16px;
   display: inline-block;
-  border: solid black 1px;
-}
-
-#icon-apple {
+  border-left: 1px solid #515151;
+  padding: 6px 0 0 0;
   width: 106px;
-  height: 36px;
+  height: 30px;
+  margin: 0;
+  float: left;
 }
 
-#icon-store {
-  width: 106px;
-  height: 36px;
+nav li:hover {
+  background: #3b3b3b;
 }
 
-#icon-mac {
-  width: 106px;
-  height: 36px;
-}
-
-#icon-iPod {
-  width: 106px;
-  height: 36px;
-}
-
-#icon-iPhone {
-  width: 106px;
-  height: 36px;
-}
-
-#icon-iPad {
-  width: 105px;
-  height: 36px;
-}
-
-#icon-iTunes {
-  width: 105px;
-  height: 36px;
-}
-
-#icon-support {
-  width: 105px;
-  height: 36px;
+#icon-apple i{
+  display: block;
+  width: 100%;
+  font-size: 22px;
 }
 
 .search-Nav {
-  width: 106px;
-  height: 19.5px;
-  line-height: 18px;
+  width: 126px;
+  z-index: 1;
+  display: inline-block;
+  float: right;
+  padding-top: 6px;
+  padding-left: 22px;
+  border-left: 1px solid #515151;
+  height: 28px;
+}
+
+.searchForm {
+  width: 104px;
+  border-radius: 12px;
+  padding: 0;
   font-size: 12px;
   font-weight: 400;
-  z-index: 2;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px;
-  color: rgb(255, 255, 255);
-  display: inline-block;
   border-top-color: rgb(255, 255, 255);
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  border: solid white 1px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0) 0px 1px 0px 0px;
+  display: inline-block;
+  }
+
+.searchIcon i {
+  padding: 0;
+  font-size: 11px;
+  position: absolute;
+  top: 12px;
+  right: 106px;
+  color: rgb(255, 255, 255);
 }
 
-.searchForm {
-  margin-top: 7px;
+#searchInput{
+  padding: 0;
+  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
   border-radius: 12px;
-  padding: 0;
-  z-index: 2;
-  border: solid red 1px;
-  height: 19.5px;
-}
-
-.searchIcon {
-  padding: 0;
-  z-index: 2;
-  border: solid green 1px;
-}
-
-.searchInput{
-  padding: 0;
-  z-index: 2;
-  border: solid black 1px;
-}
+  font-size: 16px;
+  padding-left: 20px;
+  }
 
 /*Promo Section */
 figure {
