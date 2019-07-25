@@ -182,28 +182,24 @@ figure {
   margin-top: 2px;
 }
 
+.mainWrapper a{
+  text-decoration: none;
+  color: white;
+}
+
 .promos {
-  width: 263px;
+  width: 23%; /*263px;*/
   height: 200px;
   display: inline-block;
-  border-left: 2px solid #fff;
-  border-left-style: solid;
-  border-left-width: 2px;
-  bottom: 0px;
-  color: rgb(0, 136, 204);
-  font-weight: 400;
-  left: 0px;
-  right: 0px;
   line-height: 18px;
   z-index: 1;
-  margin-right: 90px;
+  border: solid blue 1px;
 }
 
 .promoImg {
-  width: 365px;
+  width: 388px;/*365px;*/
   height: 200px;
   margin: 0px;
-
 }
 
 /*Footer*/
