@@ -1,3 +1,7 @@
+body * {
+  box-sizing: border-box;
+}
+
 .background {
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-repeat: no-repeat;
@@ -22,10 +26,10 @@
   margin-left: 230px;
   margin-right: 230px;
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0;
-  left: 0;
-  margin-top: -70px;
+  left: 4%;
+  margin-top: 7px;
   padding: 50px 0;
 }
 
@@ -45,29 +49,44 @@
   font-size: 10px;
 }
 
-.row1 {
-  margin-bottom: 27px;
-  line-height: 20px;
-  margin-top: -28px;
+.row1Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png");
+  width: 80%;
+  height: 100px;
 }
 
-.row1 h2 {
-  font-size: 12px;
+.row2Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
+  width: 80%;
+  height: 82px;
+
 }
 
-.row2 {
-  margin-bottom: 27px;
-  font-size: 12px;
+.row3Text {
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  height: 31px;
 }
 
+.row3Text: hover {
+  margin-top: -34px;
+}
 
-.mainLink {
+.row3Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
+  width: 80%;
+  height: 64px;
+  margin-top: -2px;
+}
+
+/*.mainLink {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   font-size: 12px;
   margin-top: 20px;
-}
+}*/
 
 
 /*Icons NavBar here*/
@@ -77,7 +96,7 @@ header {
 }
 
 #globalHeader{
-  width: 70%;
+  width: 62%;
   height: 36px;
   background-position: 50% 0;
   top: 60px;
@@ -90,6 +109,7 @@ header {
   background: linear-gradient(0, rgba(102,102,102,1) 0%, rgba(94,94,94,1) 50%, rgba(112,112,112,1) 51%, rgba(128,128,128,1) 100%),
              linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 0.002%, rgba(0,0,0,0) 98%, rgba(0,0,0,0.2) 100%),
              linear-gradient(270deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 97%, rgba(0,0,0,0.45) 100%);
+  border: solid blue 1px;
 }
 
 #globalNav {
@@ -99,19 +119,15 @@ header {
   text-align: center;
   color: white;
   padding: 0;
+  width: 86%;
 }
 
-#globalNav ul{
-  width: 835px;
-  margin: 0;
-}
-
-#globalNav li{
+#globalNav li {
   display: inline-block;
   border-left: 1px solid #515151;
   padding: 6px 0 0 0;
-  width: 106px;
   height: 30px;
+  width: 12%;
   margin: 0;
   float: left;
 }
@@ -124,6 +140,8 @@ nav li:hover {
   display: block;
   width: 100%;
   font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: -3px;
 }
 
 .search-Nav {
@@ -132,13 +150,16 @@ nav li:hover {
   display: inline-block;
   float: right;
   padding-top: 6px;
-  padding-left: 22px;
-  border-left: 1px solid #515151;
+  margin: 0;
   height: 28px;
+  margin-right: 26px;
 }
 
+#icon-support {
+    border-right: 1px solid #515151;
+}
 .searchForm {
-  width: 63%;
+  width: 60%;
   border-radius: 12px;
   padding: 0;
   font-size: 12px;
@@ -150,7 +171,7 @@ nav li:hover {
   border-bottom-right-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0) 0px 1px 0px 0px;
   display: inline-block;
-  }
+}
 
 .searchIcon i {
   padding: 0;
@@ -161,13 +182,13 @@ nav li:hover {
   color: rgb(255, 255, 255);
 }
 
-#searchInput{
+#searchInput {
   padding: 0;
-  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+  background: url("/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png") 0 0 no-repeat;
   border-radius: 12px;
   font-size: 16px;
-  padding-left: 20px;
-  }
+  border: solid green 1px;
+}
 
 /*Promo Section */
 figure {
@@ -176,7 +197,7 @@ figure {
   height: 200px;
 }
 
-/*here you can manage the left and right images*/
+
 .globalPromos{
   margin: 0px;
   z-index: 1;
@@ -191,7 +212,7 @@ figure {
 }
 
 .promos {
-  width: 24%; /*263px;*/
+  width: 24%;
   height: 200px;
   display: inline-block;
   z-index: 1;
@@ -201,7 +222,7 @@ figure {
 }
 
 .promoImg {
-  width: 100%;/*365px;*/
+  width: 100%;
   height: 200px;
   margin: 0;
   padding: 0;
