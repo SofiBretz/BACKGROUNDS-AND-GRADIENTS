@@ -17,7 +17,7 @@ body * {
 }
 
 .mainWrapper {
-  font-family: 'open sans light';
+  font-family: 'Open Sans Light', monospace;
   text-align: center;
   color: white;
   width: 70%;
@@ -59,7 +59,6 @@ body * {
   background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
   width: 80%;
   height: 82px;
-
 }
 
 .row3Text {
@@ -90,7 +89,6 @@ header {
 #globalHeader {
   width: 62%;
   height: 36px;
-  background-position: 50% 0;
   top: 60px;
   z-index: 1;
   position: relative;
@@ -98,9 +96,10 @@ header {
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
-  background: linear-gradient(0, rgba(102,102,102,1) 0%, rgba(94,94,94,1) 50%, rgba(112,112,112,1) 51%, rgba(128,128,128,1) 100%),
-             linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 0.002%, rgba(0,0,0,0) 98%, rgba(0,0,0,0.2) 100%),
-             linear-gradient(270deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 5%, rgba(0,0,0,0) 97%, rgba(0,0,0,0.45) 100%);
+  background: linear-gradient(0, rgba(102, 102, 102, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(112, 112, 112, 1) 51%, rgba(128, 128, 128, 1) 100%),
+  linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 0.002%, rgba(0, 0, 0, 0) 98%, rgba(0, 0, 0, 0.2) 100%),
+  linear-gradient(270deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%);
+  background-position: 50% 0;
 }
 
 #globalNav {
@@ -127,14 +126,6 @@ nav li:hover {
   background: #3b3b3b;
 }
 
-#icon-apple i {
-  display: block;
-  width: 100%;
-  font-size: 22px;
-  margin-bottom: 10px;
-  margin-top: -3px;
-}
-
 #icon-support {
   border-right: 1px solid #515151;
 }
@@ -154,6 +145,7 @@ nav li:hover {
 .searchForm {
   width: 100%;
   height: 24px;
+  border-radius: 12px;
   padding: 0;
   display: inline-block;
   margin-top: -4px;
@@ -163,8 +155,7 @@ nav li:hover {
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0) 0px 1px 0px 0px;
-  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0) 0 1px 0px 0;
   font-size: 13px;
 }
 
@@ -190,6 +181,14 @@ nav li:hover {
   color: white;
 }
 
+#icon-apple i {
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: -3px;
+}
+
 #searchInput:focus {
   background: black;
   opacity: 0.6;
@@ -204,7 +203,7 @@ figure {
 }
 
 .globalPromos {
-  margin: 0px;
+  margin: 0;
   z-index: 1;
   margin-left: 62px;
   margin-bottom: 5px;
@@ -236,15 +235,15 @@ figure {
 
 /* Footer */
 
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
 footer {
   margin: 0px;
   width: 100%;
   height: 90px;
-}
-
-footer a {
-  color: #08c;
-  text-decoration: none;
 }
 
 .homeFooter {
@@ -271,7 +270,7 @@ footer a {
 .footerLeft li {
   margin-right: 0;
   padding-right: 0;
-  }
+}
 
 .footerLeft {
   float: left;
@@ -286,7 +285,7 @@ footer a {
   margin: 0;
   list-style: none outside;
   padding: 0;
-  }
+}
 
 .footerRight li {
   display: inline-block;
@@ -294,7 +293,7 @@ footer a {
   padding-left: 2px;
   border-left: 1px;
   border-left-color: rgb(110, 110, 110);
-  border-left-width: 0px;
+  border-left-width: 0;
   color: rgb(110, 110, 110);
   float: none;
 }
@@ -314,7 +313,7 @@ footer a {
 }
 
 #usaIcon {
-  padding-top: 3px
+  padding-top: 3px;
 }
 
 .footerRight: after {
@@ -326,16 +325,13 @@ footer a {
 }
 
 .footerBottom {
+  margin: 0;
+  padding-top: 1.5em;
   float: left;
   clear: both;
   width: 60%;
   display: inline-block;
-  padding-top: 1.5em;
   text-align: left;
-  padding: 0;
-  margin: 0;
-  padding: 0;
-  display: block;
 }
 
 .footerBottom li {
@@ -345,7 +341,7 @@ footer a {
   margin: 0;
   margin-right: 5px;
   padding-right: 0;
-  }
+}
 
 #rightBorderBottom {
   border-right: 1px solid #ccc;
