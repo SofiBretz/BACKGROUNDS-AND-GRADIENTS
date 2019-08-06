@@ -196,18 +196,13 @@ nav li:hover {
 
 /* Promo Section */
 
-figure {
-  margin: 0;
-  width: 100%;
-  height: 200px;
-}
-
 .globalPromos {
   margin: 0;
-  z-index: 1;
-  margin-left: 62px;
-  margin-bottom: 5px;
-  margin-top: 2px;
+  display: flex;
+  width: 92%;
+  height: 200px;
+  border: solid green 1px;
+  margin-left: 4%;
 }
 
 .mainWrapper a {
@@ -216,21 +211,40 @@ figure {
 }
 
 .promos {
-  width: 24%;
+  width: 25%; /*360*/
   height: 200px;
-  display: inline-block;
-  z-index: 1;
-  margin: -3px;
-  padding: 0;
-  margin-top: 1px;
 }
 
-.promoImg {
-  width: 100%;
+.promoImg1 {
+  background: url("https://web.archive.org/web/20140419112642im_/http://images.apple.com/home/images/promo_iphone5s_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
   height: 200px;
-  margin: 0;
-  padding: 0;
-  margin-left: 7px;
+  border: solid black 1px;
+}
+
+.promoImg2 {
+  background: url("https://web.archive.org/web/20140419112642im_/http://images.apple.com/home/images/promo_iphone5c_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.promoImg3 {
+  background: url("https://web.archive.org/web/20140226015601im_/http://images.apple.com/home/images/promo_30_years_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+  border: solid black 1px;
+}
+
+.promoImg4 {
+  background: url("https://web.archive.org/web/20140223180930im_/http://images.apple.com/home/images/promo_supplier_responsibility_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+  border: solid black 1px;
 }
 
 /* Footer */
@@ -305,6 +319,7 @@ footer {
   text-align: right;
   zoom: 1;
   margin-top: 3px;
+  margin-right: 20px;
 }
 
 .footerListRight li {
@@ -332,6 +347,7 @@ footer {
   width: 60%;
   display: inline-block;
   text-align: left;
+  margin-top: -16px;
 }
 
 .footerBottom li {
