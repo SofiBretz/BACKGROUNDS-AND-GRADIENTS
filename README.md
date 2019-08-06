@@ -8,6 +8,8 @@ This is the fourth project of the HTML and CSS Curriculum at [Microverse](https:
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
 
+#### [Live Demo](https://rawcdn.githack.com/SofiBretz/BACKGROUNDS-AND-GRADIENTS/04467140bc6dda8ec7fbbd193bf8a636ba62e2eb/index.html)
+
 #### Author
 
 * [@SofiBretz](https://github.com/SofiBretz)
