@@ -199,10 +199,8 @@ nav li:hover {
 .globalPromos {
   margin: 0;
   display: flex;
-  width: 92%;
+  width: 100%;
   height: 200px;
-  border: solid green 1px;
-  margin-left: 4%;
 }
 
 .mainWrapper a {
@@ -220,7 +218,6 @@ nav li:hover {
   background-position: 50%;
   background-size: 100% 100%;
   height: 200px;
-  border: solid black 1px;
 }
 
 .promoImg2 {
@@ -228,7 +225,6 @@ nav li:hover {
   background-position: 50%;
   background-size: 100% 100%;
   height: 200px;
-  border: solid black 1px;
 }
 
 .promoImg3 {
@@ -236,7 +232,6 @@ nav li:hover {
   background-position: 50%;
   background-size: 100% 100%;
   height: 200px;
-  border: solid black 1px;
 }
 
 .promoImg4 {
@@ -244,7 +239,6 @@ nav li:hover {
   background-position: 50%;
   background-size: 100% 100%;
   height: 200px;
-  border: solid black 1px;
 }
 
 /* Footer */
