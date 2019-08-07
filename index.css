@@ -199,8 +199,9 @@ nav li:hover {
 .globalPromos {
   margin: 0;
   display: flex;
-  width: 100%;
+  width: 95%;
   height: 200px;
+  margin-left: 40px;
 }
 
 .mainWrapper a {
@@ -255,7 +256,7 @@ footer {
 }
 
 .homeFooter {
-  width: 67%;
+  width: 69%;
   height: 80px;
   padding: 0;
   color: #6e6e6e;
@@ -311,9 +312,8 @@ footer {
   width: 49%;
   display: inline-block;
   text-align: right;
-  zoom: 1;
   margin-top: 3px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .footerListRight li {
