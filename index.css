@@ -1,0 +1,370 @@
+body * {
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  background-origin: padding-box;
+  background-position-x: 50%;
+  background-position-y: 100%;
+  margin: auto;
+  position: relative;
+  margin-top: -310px;
+}
+
+.mainWrapper {
+  font-family: 'Open Sans Light', monospace;
+  text-align: center;
+  color: white;
+  width: 70%;
+  height: 150px;
+  line-height: 11px;
+  margin-left: 230px;
+  margin-right: 230px;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  left: 4%;
+  margin-top: 7px;
+  padding: 50px 0;
+}
+
+.main {
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+  height: 50px;
+}
+
+.mainTitle {
+  font-size: 10px;
+  line-height: 60px;
+}
+
+.mainTitleImg {
+  font-size: 10px;
+}
+
+.row1Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_title_small.png");
+  width: 80%;
+  height: 100px;
+}
+
+.row2Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/your_verse_subhead_small.png");
+  width: 80%;
+  height: 82px;
+}
+
+.row3Text {
+  display: block;
+  overflow: hidden;
+  margin-top: 20px;
+  height: 31px;
+}
+
+.row3Text: hover {
+  margin-top: -34px;
+}
+
+.row3Img {
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png");
+  width: 80%;
+  height: 64px;
+  margin-top: -2px;
+}
+
+/* Icons NavBar here */
+
+header {
+  font-family: 'open sans', monospace;
+  font-size: 0.8125rem;
+}
+
+#globalHeader {
+  width: 62%;
+  height: 36px;
+  top: 60px;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  background: linear-gradient(0, rgba(102, 102, 102, 1) 0%, rgba(94, 94, 94, 1) 50%, rgba(112, 112, 112, 1) 51%, rgba(128, 128, 128, 1) 100%),
+  linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 0.002%, rgba(0, 0, 0, 0) 98%, rgba(0, 0, 0, 0.2) 100%),
+  linear-gradient(270deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%);
+  background-position: 50% 0;
+}
+
+#globalNav {
+  list-style: none outside;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  color: white;
+  padding: 0;
+  width: 86%;
+}
+
+nav li:hover {
+  background: #3b3b3b;
+}
+
+#globalNav li {
+  display: inline-block;
+  border-left: 1px solid #515151;
+  padding: 6px 0 0 0;
+  height: 36px;
+  width: 12%;
+  margin: 0;
+  float: left;
+}
+
+#icon-support {
+  border-right: 1px solid #515151;
+}
+
+.search-Nav {
+  width: 13%;
+  height: 28px;
+  display: inline-block;
+  float: right;
+  padding-top: 6px;
+  margin: 0;
+  margin-right: 20px;
+  margin-top: -36px;
+  position: relative;
+}
+
+.searchForm {
+  width: 100%;
+  height: 24px;
+  border-radius: 12px;
+  padding: 0;
+  display: inline-block;
+  margin-top: -4px;
+  position: absolute;
+  border-top-color: rgb(255, 255, 255);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0px 0px, rgba(255, 255, 255, 0) 0 1px 0px 0;
+  font-size: 13px;
+}
+
+#searchInput {
+  padding: 0;
+  width: 100%;
+  height: 24px;
+  background: url("/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png") 0 0 no-repeat;
+  font-size: 13px;
+  position: absolute;
+  border-radius: 12px;
+  padding-left: 24px;
+  color: white;
+}
+
+.searchIcon i {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  top: 6px;
+  right: 105px;
+  position: absolute;
+  color: white;
+}
+
+#icon-apple i {
+  display: block;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: -3px;
+}
+
+#searchInput:focus {
+  background: black;
+  opacity: 0.6;
+}
+
+/* Promo Section */
+
+.globalPromos {
+  margin: 0;
+  display: flex;
+  width: 96%;
+  height: 200px;
+  margin-left: 33px;
+}
+
+.mainWrapper a {
+  text-decoration: none;
+  color: white;
+}
+
+.promos {
+  width: 25%;
+  height: 200px;
+}
+
+.promoImg1 {
+  background: url("https://web.archive.org/web/20140419112642im_/http://images.apple.com/home/images/promo_iphone5s_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+}
+
+.promoImg2 {
+  background: url("https://web.archive.org/web/20140419112642im_/http://images.apple.com/home/images/promo_iphone5c_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+}
+
+.promoImg3 {
+  background: url("https://web.archive.org/web/20140226015601im_/http://images.apple.com/home/images/promo_30_years_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+}
+
+.promoImg4 {
+  background: url("https://web.archive.org/web/20140223180930im_/http://images.apple.com/home/images/promo_supplier_responsibility_2x.jpg") no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  height: 200px;
+}
+
+/* Footer */
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  width: 100%;
+  height: 90px;
+}
+
+.homeFooter {
+  width: 69%;
+  height: 80px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'open sans', monospace;
+  margin-top: 5px;
+}
+
+.homeFooter: after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+
+.footerLeft li {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.footerLeft {
+  float: left;
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+  zoom: 1;
+}
+
+.footerRight ul {
+  display: inline;
+  margin: 0;
+  list-style: none outside;
+  padding: 0;
+}
+
+.footerRight li {
+  display: inline-block;
+  margin-left: 0;
+  padding-left: 2px;
+  border-left: 1px;
+  border-left-color: rgb(110, 110, 110);
+  border-left-width: 0;
+  color: rgb(110, 110, 110);
+  float: none;
+}
+
+.footerRight {
+  float: right;
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.footerListRight li {
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+}
+
+#usaIcon {
+  padding-top: 3px;
+}
+
+.footerRight: after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.footerBottom {
+  margin: 0;
+  padding-top: 1.5em;
+  float: left;
+  clear: both;
+  width: 60%;
+  display: inline-block;
+  text-align: left;
+  margin-top: -16px;
+}
+
+.footerBottom li {
+  display: inline-block;
+  color: #6e6e6e;
+  margin: 0;
+  margin-right: 5px;
+  padding-right: 0;
+}
+
+#rightBorderBottom {
+  border-right: 1px solid #ccc;
+  margin-right: 3px;
+}
+
+.footerBottom a {
+  margin-right: 5px;
+}
+
+.footerBottom: after {
+  content: '.';
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
